@@ -107,3 +107,32 @@ for(var i = 0; i < arr.length; i++){ //length кол-во элементов в 
 //else{
   //  alert("ddgdgd");
 //}
+
+function nik(word){
+    console.log(word + " hdhdf");
+    console.log("ddh");
+}
+nik("fdhdfh");
+
+function summa (a,b){
+    var res = a + b;
+    console.log(res);
+}
+summa(5,7);
+
+function samma(arr){
+    var sum = 0;
+
+    for(var i = 0; i < arr.length; i++){
+        sum += arr[i];
+    }
+    console.log(sum);
+}
+var array = [6 , 8, 1];
+samma(array);
+
+var nam = 10;
+function info(){
+    console.log(nam);
+}
+info();
